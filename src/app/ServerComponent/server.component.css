@@ -1,0 +1,42 @@
+body {
+  padding-top: 10px;
+}
+
+.row {
+  margin: 10px;
+}
+
+.more {
+  color: #080;
+}
+
+.less {
+  color: rgb(255, 208, 0);
+}
+
+.none {
+  color: #F00;
+  font-size: 20px;
+}
+
+.card {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+.card:hover {
+
+  transform: scale(1.025);
+  -webkit-transform: scale(1.025);
+  -moz-transform: scale(1.025);
+  background: radial-gradient(circle, #bac964 0%, rgba(101, 101, 102, 0.1609594521402311) 51%, #bac964 100%);
+  box-shadow: #bac964 -5px -5px 10px;
+
+}
+
+.text-uppercase {
+  color: #ffffff;
+}
